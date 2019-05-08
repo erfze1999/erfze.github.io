@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: 'aqingxin的博客'
-description: '昵称aqingxin，前端开发者/伪极客，热爱技术。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: 'aqingxin, aqingxin的个人博客, aqingxin的博客, 前端, 前端开发, 前端博客, javascript, vuejs, 微信小程序, nodejs'
-url: 'http://aqingxin.github.io' # your host
+title: "ERFZE's Blog"
+description: '伪文艺内核的技术宅'
+keyword: 'Python,Pentest,Red Team,Geek'
+url: 'https://erfze.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -14,13 +14,13 @@ nav:
 
 # Footer
 footer:
-  since: 2018
+  since: 2019
 
 # Author 配置博主信息
-author: 'aqingxin'
-nickname: 'aqingxin'
-bio: '前端开发者，热爱技术，简单乐观爱创造'
-avatar: '/assets/img/profile.png'
+author: 'ERFZE'
+nickname: 'ERFZE'
+bio: '伪文艺内核的技术宅'
+avatar: '/assets/img/IronMan.jpeg'
 
 # Search
 search: true
@@ -30,15 +30,15 @@ nightMode: true
 
 # Comments 评论功能
 comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  disqus: true
+  disqus_url: 'https://erfze.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo']
+social-share-items: ['wechat', 'douban', 'twitter']
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
@@ -49,15 +49,16 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/3187835755/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1'
-  github: '//github.com/aqingxin'
+  twitter: '//twitter.com/erfze99'
+  github: '//github.com/erfze'
+  zhihu: '//www.zhihu.com/people/erfze/activities'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
-paginate: 10
+paginate: 9
 paginate_path: 'page:num'
 exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
