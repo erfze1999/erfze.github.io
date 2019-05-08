@@ -20,7 +20,7 @@ footer:
 author: 'ERFZE'
 nickname: 'ERFZE'
 bio: '伪文艺内核的技术宅'
-avatar: '/assets/img/IronMan.jpeg'
+avatar: '/assets/img/IronManHead.jpg'
 
 # Search
 search: true
@@ -77,3 +77,4 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
+future: ture
